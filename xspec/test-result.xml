@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.jenitennison.com/xslt/xspec"
+        xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/setup/test.xspec"
+        stylesheet="file:/home/ss/projects/teaching/x-technologien_gitlab/setup/test.xsl"
+        date="2026-01-28T11:23:07.315972841+01:00">
+   <scenario id="scenario1"
+             xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/setup/test.xspec">
+      <label>run dummy</label>
+      <input-wrap xmlns="">
+         <x:context xmlns:marc="http://www.loc.gov/MARC21/slim"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec">
+            <dummy/>
+         </x:context>
+      </input-wrap>
+      <result select="/element()">
+         <content-wrap xmlns="">
+            <dummy xmlns:mrclib="https://share.obvsg.at/xml/xsl/mrclib"
+                   xmlns:utils="https://share.obvsg.at/xml/xsl/utils"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema">Yummy dummy</dummy>
+         </content-wrap>
+      </result>
+      <test id="scenario1-expect1" successful="true">
+         <label>should pass</label>
+         <expect select="/element()">
+            <content-wrap xmlns="">
+               <dummy xmlns:marc="http://www.loc.gov/MARC21/slim"
+                      xmlns:x="http://www.jenitennison.com/xslt/xspec">Yummy dummy</dummy>
+            </content-wrap>
+         </expect>
+      </test>
+   </scenario>
+   <scenario id="scenario2"
+             xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/setup/test.xspec">
+      <label>run dummy</label>
+      <input-wrap xmlns="">
+         <x:context xmlns:marc="http://www.loc.gov/MARC21/slim"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec">
+            <dummy/>
+         </x:context>
+      </input-wrap>
+      <result select="/element()">
+         <content-wrap xmlns="">
+            <dummy xmlns:mrclib="https://share.obvsg.at/xml/xsl/mrclib"
+                   xmlns:utils="https://share.obvsg.at/xml/xsl/utils"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema">Yummy dummy</dummy>
+         </content-wrap>
+      </result>
+      <test id="scenario2-expect1" successful="false">
+         <label>should fail</label>
+         <expect select="/element()">
+            <content-wrap xmlns="">
+               <dummy xmlns:marc="http://www.loc.gov/MARC21/slim"
+                      xmlns:x="http://www.jenitennison.com/xslt/xspec">I fail. Yes. With pride and on purpose.</dummy>
+            </content-wrap>
+         </expect>
+      </test>
+   </scenario>
+</report>
