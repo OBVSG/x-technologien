@@ -21,6 +21,6 @@ SOURCEFILE="$1"
 
 export SAXON_HOME=saxon/share/java
 export XSPEC_HTML_REPORT_THEME=classic
-export TEST_DIR=xspec
+export TEST_DIR=test_output
 
 xspec/bin/xspec.sh "$SOURCEFILE"
