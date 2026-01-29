@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.jenitennison.com/xslt/xspec"
+        xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex01/ex01.xspec"
+        stylesheet="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex01/ex01.xsl"
+        date="2025-11-20T10:29:50.680192103+01:00">
+   <scenario id="scenario1"
+             xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex01/ex01.xspec">
+      <label>lösche 998</label>
+      <input-wrap xmlns="">
+         <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+            <datafield tag="998" ind1=" " ind2=" ">
+               <subfield code="a">Lösch mich!</subfield>
+            </datafield>
+            <datafield tag="999" ind1=" " ind2=" ">
+               <subfield code="a">Lass mich!</subfield>
+            </datafield>
+         </x:context>
+      </input-wrap>
+      <result select="/element()">
+         <content-wrap xmlns="">
+            <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                       tag="999"
+                       ind1=" "
+                       ind2=" ">
+               <subfield code="a">Lass mich!</subfield>
+            </datafield>
+         </content-wrap>
+      </result>
+      <test id="scenario1-expect1" successful="true">
+         <label>998 gelöscht</label>
+         <expect select="/element()">
+            <content-wrap xmlns="">
+               <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                          tag="999"
+                          ind1=" "
+                          ind2=" ">
+                  <subfield code="a">Lass mich!</subfield>
+               </datafield>
+            </content-wrap>
+         </expect>
+      </test>
+   </scenario>
+   <scenario id="scenario2"
+             xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex01/ex01.xspec">
+      <label>lösche 77308 SF9</label>
+      <input-wrap xmlns="">
+         <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+            <datafield tag="773" ind1="0" ind2="8">
+               <subfield code="w">(AT-OBV)AC13695360</subfield>
+               <subfield code="q">2</subfield>
+               <subfield code="9">O:1</subfield>
+            </datafield>
+            <datafield tag="773" ind1="1" ind2="8">
+               <subfield code="w">(AT-OBV)AC12345678</subfield>
+               <subfield code="g">LKR</subfield>
+               <subfield code="9">LOCAL</subfield>
+            </datafield>
+            <datafield tag="773" ind1="0" ind2="8">
+               <subfield code="i">Enthalten in</subfield>
+               <subfield code="t">Energy futures, environment and well-being</subfield>
+               <subfield code="d">Graz, [2017]</subfield>
+               <subfield code="g">S. 500-</subfield>
+               <subfield code="w">(AT-OBV)AC14481219</subfield>
+            </datafield>
+            <datafield tag="995" ind1=" " ind2=" ">
+               <subfield code="a">Lokales Feld, bitte nicht angreifen!</subfield>
+               <subfield code="9">LOCAL</subfield>
+            </datafield>
+         </x:context>
+      </input-wrap>
+      <result select="/element()">
+         <content-wrap xmlns="">
+            <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                       tag="773"
+                       ind1="0"
+                       ind2="8">
+               <subfield code="w">(AT-OBV)AC13695360</subfield>
+               <subfield code="q">2</subfield>
+            </datafield>
+            <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                       tag="773"
+                       ind1="1"
+                       ind2="8">
+               <subfield code="w">(AT-OBV)AC12345678</subfield>
+               <subfield code="g">LKR</subfield>
+               <subfield code="9">LOCAL</subfield>
+            </datafield>
+            <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                       tag="773"
+                       ind1="0"
+                       ind2="8">
+               <subfield code="i">Enthalten in</subfield>
+               <subfield code="t">Energy futures, environment and well-being</subfield>
+               <subfield code="d">Graz, [2017]</subfield>
+               <subfield code="g">S. 500-</subfield>
+               <subfield code="w">(AT-OBV)AC14481219</subfield>
+            </datafield>
+            <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                       tag="995"
+                       ind1=" "
+                       ind2=" ">
+               <subfield code="a">Lokales Feld, bitte nicht angreifen!</subfield>
+               <subfield code="9">LOCAL</subfield>
+            </datafield>
+         </content-wrap>
+      </result>
+      <test id="scenario2-expect1" successful="true">
+         <label>77308 SF9 gelöscht, sonst keine Änderungen</label>
+         <expect select="/element()">
+            <content-wrap xmlns="">
+               <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                          tag="773"
+                          ind1="0"
+                          ind2="8">
+                  <subfield code="w">(AT-OBV)AC13695360</subfield>
+                  <subfield code="q">2</subfield>
+               </datafield>
+               <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                          tag="773"
+                          ind1="1"
+                          ind2="8">
+                  <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  <subfield code="g">LKR</subfield>
+                  <subfield code="9">LOCAL</subfield>
+               </datafield>
+               <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                          tag="773"
+                          ind1="0"
+                          ind2="8">
+                  <subfield code="i">Enthalten in</subfield>
+                  <subfield code="t">Energy futures, environment and well-being</subfield>
+                  <subfield code="d">Graz, [2017]</subfield>
+                  <subfield code="g">S. 500-</subfield>
+                  <subfield code="w">(AT-OBV)AC14481219</subfield>
+               </datafield>
+               <datafield xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                          tag="995"
+                          ind1=" "
+                          ind2=" ">
+                  <subfield code="a">Lokales Feld, bitte nicht angreifen!</subfield>
+                  <subfield code="9">LOCAL</subfield>
+               </datafield>
+            </content-wrap>
+         </expect>
+      </test>
+   </scenario>
+</report>

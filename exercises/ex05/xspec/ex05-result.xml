@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.jenitennison.com/xslt/xspec"
+        xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec"
+        stylesheet="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05_solution.xsl"
+        date="2026-01-29T16:50:15.06215544+01:00">
+   <scenario id="scenario1"
+             xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+      <label>pos19</label>
+      <scenario id="scenario1-scenario1"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>Stücktitel, verknüpft</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nam a2200421 cx4500</leader>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nam a2200421 cb4500</leader>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario1-expect1" successful="true">
+            <label>LDR/19=b</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cb4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cb4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario2"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>Stücktitel, unverknüpft</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nam a2200421 cx4500</leader>
+                  <datafield tag="490" ind1="0" ind2=" ">
+                     <subfield code="a">Generische Taschenbücher</subfield>
+                     <subfield code="v">1</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nam a2200421 cx4500</leader>
+                  <datafield tag="490" ind1="0" ind2=" ">
+                     <subfield code="a">Generische Taschenbücher</subfield>
+                     <subfield code="v">1</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario2-expect1" successful="true">
+            <label>unverändert</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cx4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cx4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario3"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>TAT, verknüpft</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nam a2200421 cx4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nam a2200421 cc4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario3-expect1" successful="true">
+            <label>LDR/19=c</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cc4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cc4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario4"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>TAT in Reihe (830), verknüpft</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nam a2200421 cx4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nam a2200421 cc4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario4-expect1" successful="true">
+            <label>LDR/19=c</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cc4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 cc4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario5"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>MtM mit Gesamttitel</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nam a2200421 ca4500</leader>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nam a2200421 ca4500</leader>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario5-expect1" successful="true">
+            <label>bleibt unverändert</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 ca4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 ca4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario6"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>Sonderdruck</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nam a2200421 cc4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="i">Sonderdruck aus</subfield>
+                     <subfield code="t">Neue Forschungen zur Geschichte der Pfarre
+              Tulln-St. Stephan</subfield>
+                     <subfield code="k">Beiträge zur Kirchengeschichte
+              Niederösterreichs ; 17</subfield>
+                     <subfield code="k">Geschichtliche Beilagen zum St. Pöltner
+              Diözesanblatt ; 34</subfield>
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nam a2200421 c 4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="i">Sonderdruck aus</subfield>
+                     <subfield code="t">Neue Forschungen zur Geschichte der Pfarre
+              Tulln-St. Stephan</subfield>
+                     <subfield code="k">Beiträge zur Kirchengeschichte
+              Niederösterreichs ; 17</subfield>
+                     <subfield code="k">Geschichtliche Beilagen zum St. Pöltner
+              Diözesanblatt ; 34</subfield>
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario6-expect1" successful="true">
+            <label>LDR/19=#</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 c 4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nam a2200421 c 4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario7"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>LDR/06!=m (fR etc.)'</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414nas a2200421 cx4500</leader>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414nas a2200421 c 4500</leader>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC12345678</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario7-expect1" successful="true">
+            <label>LDR/19=#</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nas a2200421 c 4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414nas a2200421 c 4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario8"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>Aufsatz</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>01414naa a2200421 cx4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="i">Enthalten in</subfield>
+                     <subfield code="t">Musikphilologie / herausgegeben von Bernhard R.
+              Appel und Reinmar Emans</subfield>
+                     <subfield code="d">Laaber : Laaber, 2017</subfield>
+                     <subfield code="g">Seite 13-21</subfield>
+                     <subfield code="k">Kompendien Musik ; Band 3</subfield>
+                     <subfield code="w">(AT-OBV)AC08074101</subfield>
+                     <subfield code="z">9783890077239</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>01414naa a2200421 c 4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="i">Enthalten in</subfield>
+                     <subfield code="t">Musikphilologie / herausgegeben von Bernhard R.
+              Appel und Reinmar Emans</subfield>
+                     <subfield code="d">Laaber : Laaber, 2017</subfield>
+                     <subfield code="g">Seite 13-21</subfield>
+                     <subfield code="k">Kompendien Musik ; Band 3</subfield>
+                     <subfield code="w">(AT-OBV)AC08074101</subfield>
+                     <subfield code="z">9783890077239</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario8-expect1" successful="true">
+            <label>LDR/19=#</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414naa a2200421 c 4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">01414naa a2200421 c 4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+      <scenario id="scenario1-scenario9"
+                xspec="file:/home/ss/projects/teaching/x-technologien/exercises/ex05/ex05.xspec">
+         <label>Sonderdruck in Reihe</label>
+         <input-wrap xmlns="">
+            <x:context xmlns:x="http://www.jenitennison.com/xslt/xspec">
+               <record>
+                  <leader>00754nam a2200229 cx4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="i">Sonderdruck aus</subfield>
+                     <subfield code="t">Zeitschrift für Astrophysik</subfield>
+                     <subfield code="g">51.1961</subfield>
+                  </datafield>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC06732359</subfield>
+                     <subfield code="v">9</subfield>
+                  </datafield>
+               </record>
+            </x:context>
+         </input-wrap>
+         <result select="/element()">
+            <content-wrap xmlns="">
+               <record xmlns:x="http://www.jenitennison.com/xslt/xspec">
+                  <leader>00754nam a2200229 cb4500</leader>
+                  <datafield tag="773" ind1="0" ind2="8">
+                     <subfield code="i">Sonderdruck aus</subfield>
+                     <subfield code="t">Zeitschrift für Astrophysik</subfield>
+                     <subfield code="g">51.1961</subfield>
+                  </datafield>
+                  <datafield tag="830" ind1=" " ind2="0">
+                     <subfield code="w">(AT-OBV)AC06732359</subfield>
+                     <subfield code="v">9</subfield>
+                  </datafield>
+               </record>
+            </content-wrap>
+         </result>
+         <test id="scenario1-scenario9-expect1" successful="true">
+            <label>LDR/19=b</label>
+            <expect-test-wrap xmlns="">
+               <x:expect xmlns:x="http://www.jenitennison.com/xslt/xspec" test="record/leader"/>
+            </expect-test-wrap>
+            <result select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">00754nam a2200229 cb4500</leader>
+               </content-wrap>
+            </result>
+            <expect select="/element()">
+               <content-wrap xmlns="">
+                  <leader xmlns:x="http://www.jenitennison.com/xslt/xspec">00754nam a2200229 cb4500</leader>
+               </content-wrap>
+            </expect>
+         </test>
+      </scenario>
+   </scenario>
+</report>

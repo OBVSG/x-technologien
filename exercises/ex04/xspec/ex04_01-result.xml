@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.jenitennison.com/xslt/xspec"
+        xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex04/ex04_01.xspec"
+        stylesheet="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex04/ex04_01.xsl"
+        date="2025-12-12T17:23:36.465171868+01:00">
+   <scenario id="scenario1"
+             xspec="file:/home/ss/projects/teaching/x-technologien_gitlab/exercises/ex04/ex04_01.xspec">
+      <label>655 mit falscher GND-ID</label>
+      <input-wrap xmlns="">
+         <x:context xmlns:marc="http://www.loc.gov/MARC21/slim"
+                    xmlns:x="http://www.jenitennison.com/xslt/xspec">
+            <datafield ind1="" ind2="7" tag="655">
+               <subfield code="a">Backbuch</subfield>
+               <subfield code="0">(DE-588)7502992-3</subfield>
+               <subfield code="2">gnd-content</subfield>
+            </datafield>
+         </x:context>
+      </input-wrap>
+      <result select="/element()">
+         <content-wrap xmlns="">
+            <datafield xmlns:marc="http://www.loc.gov/MARC21/slim"
+                       xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                       ind1=""
+                       ind2="7"
+                       tag="655">
+               <subfield code="a">Backbuch</subfield>
+               <subfield code="0">(DE-588)1071926306</subfield>
+               <subfield code="2">gnd-content</subfield>
+            </datafield>
+         </content-wrap>
+      </result>
+      <test id="scenario1-expect1" successful="true">
+         <label>Subfeld 0 korrigiert</label>
+         <expect select="/element()">
+            <content-wrap xmlns="">
+               <datafield xmlns:marc="http://www.loc.gov/MARC21/slim"
+                          xmlns:x="http://www.jenitennison.com/xslt/xspec"
+                          ind1=""
+                          ind2="7"
+                          tag="655">
+                  <subfield code="a">Backbuch</subfield>
+                  <subfield code="0">(DE-588)1071926306</subfield>
+                  <subfield code="2">gnd-content</subfield>
+               </datafield>
+            </content-wrap>
+         </expect>
+      </test>
+   </scenario>
+</report>
