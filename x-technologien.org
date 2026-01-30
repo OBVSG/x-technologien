@@ -3,7 +3,7 @@
 #+property: header-args:xquery :db ws-sample :exports both
 #+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:org-info.min.js
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="solarized-light.min.css" />
-#+EXPORT_FILE_NAME: dist/index
+#+EXPORT_FILE_NAME: docs/index
 
 * XML
 ** Präsentation
