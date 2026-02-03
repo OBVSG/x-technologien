@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<record>
+  <leader>03983nam a2200901 c 4500</leader>
+  <controlfield tag="001">99149828010703331</controlfield>
+  <controlfield tag="005">20260202122456.0</controlfield>
+  <controlfield tag="007">cr||||||||||||</controlfield>
+  <controlfield tag="008">251012s2025 ||||||||o|||| 10||||ger c</controlfield>
+  <controlfield tag="009">AC17759478</controlfield>
+  <datafield ind1=" " ind2=" " tag="015">
+    <subfield code="a">25,O11</subfield>
+    <subfield code="2">dnb</subfield>
+  </datafield>
+  <datafield ind1="7" ind2=" " tag="016">
+    <subfield code="a">1378754549</subfield>
+    <subfield code="2">DE-101</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="020">
+    <subfield code="a">9783839400678</subfield>
+    <subfield code="q">E-Book (PDF)</subfield>
+  </datafield>
+  <datafield ind1="7" ind2=" " tag="024">
+    <subfield code="a">10.14361/9783839400678</subfield>
+    <subfield code="2">doi</subfield>
+  </datafield>
+  <datafield ind1="5" ind2="2" tag="028">
+    <subfield code="a">TW7810PDF</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(AT-OBV)AC17759478</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(DE-599)DNB1378754549</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC)1548516095</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(DE-101)1378754549</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">AT-UBTUG</subfield>
+    <subfield code="b">ger</subfield>
+    <subfield code="c">DE-101</subfield>
+    <subfield code="d">AT-UBMW</subfield>
+    <subfield code="e">rda</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="041">
+    <subfield code="a">ger</subfield>
+    <subfield code="a">eng</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="044">
+    <subfield code="c">XA-DE</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="084">
+    <subfield code="a">780</subfield>
+    <subfield code="q">DE-101</subfield>
+    <subfield code="2">sdnb</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Klima - Klang - Transformation</subfield>
+    <subfield code="b">Neue Diskurs- und Erfahrungsräume zwischen Musik und
+      Wissenschaft</subfield>
+    <subfield code="c">Gisela Nauck, Raphael Börger, Martina Brandorff, Gina
+      Emerson, Manuel Rivera, Christian Thorau (Hg.)</subfield>
+  </datafield>
+  <datafield ind1="1" ind2="0" tag="246">
+    <subfield code="a">Diskursräume</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="1" tag="264">
+    <subfield code="a">Bielefeld</subfield>
+    <subfield code="b">transcript</subfield>
+    <subfield code="c">[2025]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">1 Online-Ressource (322 Seiten)</subfield>
+    <subfield code="b">Illustrationen, Notenbeispiele</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="336">
+    <subfield code="b">txt</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="337">
+    <subfield code="b">c</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="338">
+    <subfield code="b">cr</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="347">
+    <subfield code="a">Textdatei</subfield>
+    <subfield code="b">PDF</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="490">
+    <subfield code="a">Musik und Klangkultur</subfield>
+    <subfield code="v">77</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource: Single
+      logical reading order</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource: All
+      non-decorative content supports reading without sight</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource:
+      Publisher’s web page for detailed accessibility information;
+      https://www.transcript-verlag.de</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource:
+      Language tagging provided</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource:
+      Print-equivalent page numbering</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource: Short
+      alternative textual descriptions</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource: Full
+      alternative textual descriptions</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource: Table
+      of contents navigation</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Hinweis zur Barrierefreiheit der Online-Ressource:
+      PDF/UA-1</subfield>
+  </datafield>
+  <datafield ind1="0" ind2=" " tag="506">
+    <subfield code="f">Unrestricted online access</subfield>
+    <subfield code="2">star</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="540">
+    <subfield code="f">CC BY-NC-ND 4.0</subfield>
+    <subfield code="2">cc</subfield>
+    <subfield code="u">https://creativecommons.org/licenses/by-nc-nd/4.0/</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="546">
+    <subfield code="a">Beiträge teilweise deutsch, teilweise englisch</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="583">
+    <subfield code="a">Archivierung/Langzeitarchivierung gewährleistet</subfield>
+    <subfield code="5">DE-101</subfield>
+    <subfield code="2">pdager</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Musik</subfield>
+    <subfield code="0">(DE-588)4040802-4</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Klang</subfield>
+    <subfield code="0">(DE-588)4030933-2</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Nachhaltigkeit</subfield>
+    <subfield code="0">(DE-588)4326464-5</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="7" tag="650">
+    <subfield code="a">Klimaänderung</subfield>
+    <subfield code="0">(DE-588)4164199-1</subfield>
+    <subfield code="2">gnd</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Philosophy and psychology</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Cosmology (Philosophy of nature)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Epistemology (Theory of knowledge)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Ethics (Moral philosophy)</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Ethics of consumption</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Other ethical norms</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Sociology and anthropology</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Social interaction</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Factors affecting social behavior</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Groups of people</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Culture and institutions</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">International migration and colonization</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Economics of land and energy</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Production</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Macroeconomics and related topics</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">Education</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="653">
+    <subfield code="a">The Arts</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="655">
+    <subfield code="a">Konferenzschrift</subfield>
+    <subfield code="0">(DE-588)1071861417</subfield>
+    <subfield code="2">gnd-content</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Nauck, Gisela,</subfield>
+    <subfield code="d">1953-</subfield>
+    <subfield code="0">(DE-588)114854327</subfield>
+    <subfield code="4">edt</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Börger, Raphael,</subfield>
+    <subfield code="d">1994-</subfield>
+    <subfield code="0">(DE-588)1356131840</subfield>
+    <subfield code="4">edt</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Brandorff, Martina.</subfield>
+    <subfield code="0">(DE-588)1311718176</subfield>
+    <subfield code="4">edt</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Emerson, Gina,</subfield>
+    <subfield code="d">ca. 20./21. Jh.</subfield>
+    <subfield code="0">(DE-588)1199067385</subfield>
+    <subfield code="4">edt</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Rivera, Manuel,</subfield>
+    <subfield code="d">1976-</subfield>
+    <subfield code="0">(DE-588)132498138</subfield>
+    <subfield code="4">edt</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="700">
+    <subfield code="a">Thorau, Christian,</subfield>
+    <subfield code="d">1964-</subfield>
+    <subfield code="0">(DE-588)128718684</subfield>
+    <subfield code="4">edt</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="8" tag="776">
+    <subfield code="i">Erscheint auch als</subfield>
+    <subfield code="n">Druck-Ausgabe</subfield>
+    <subfield code="z">9783837667677</subfield>
+  </datafield>
+  <datafield ind1="4" ind2="0" tag="856">
+    <subfield code="u">https://doi.org/10.14361/9783839400678</subfield>
+    <subfield code="x">Resolving-System</subfield>
+    <subfield code="z">kostenfrei</subfield>
+    <subfield code="3">Volltext</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="1" tag="852">
+    <subfield code="a">43ACC_TUG</subfield>
+    <subfield code="6">995792171204517</subfield>
+    <subfield code="9">E</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="1" tag="852">
+    <subfield code="a">43ACC_UBMW</subfield>
+    <subfield code="6">992638569804521</subfield>
+    <subfield code="9">E</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="912">
+    <subfield code="a">OA-EBOOK</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="912">
+    <subfield code="a">ZDB-318-TROP</subfield>
+  </datafield>
+  <datafield ind1="4" ind2=" " tag="970">
+    <subfield code="b">DE-101</subfield>
+  </datafield>
+</record>
