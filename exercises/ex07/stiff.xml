@@ -65,8 +65,8 @@
   <datafield ind1="1" ind2=" " tag="100">
     <subfield code="a">Roach, Mary.</subfield>
   </datafield>
-  <datafield ind1="1" ind2="0" tag="245">
-    <subfield code="a">Stiff :</subfield>
+  <datafield ind1="1" ind2="4" tag="245">
+    <subfield code="a">The Stiff :</subfield>
     <subfield code="b">the curious lives of human cadavers /</subfield>
     <subfield code="c">Mary Roach.</subfield>
   </datafield>

@@ -2,7 +2,9 @@
 #+options: ^:nil
 #+property: header-args:xquery :db ws-sample :exports both
 #+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:org-info.min.js
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="solarized-light.min.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="solarized-dark.min.css" />
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://orgmode.org/worg/style/worg.css"/>
+# #+HTML_HEAD: <link rel="stylesheet" href="http://dakrone.github.io/org.css" type="text/css" />
 #+EXPORT_FILE_NAME: docs/index
 
 * XML
@@ -486,8 +488,8 @@ end
 
 XSLT
 #+begin_src xml
-<xsl:template match="datafield[@tag='020']/subfield[@code=('a', 'z')]">
-  <subfield code="{@code}>{replace(., "-", "")}</subfield>
+<xsl:template match="datafield[@tag=('020', '773', 'TBD')]/subfield[@code=('a', 'z')]">
+  <subfield code="{@code}">{replace(., "-", "")}</subfield>
 </xsl:template>
 #+end_src
 ** Feld 655
@@ -595,6 +597,21 @@ https://share.obvsg.at/xsldocs/xslt-normalization/OBV_normalize-on-save/index.ht
 - [[https://share.obvsg.at/xsldocs/xslt-normalization/OBV_normalize-on-save/index.html#temp;datafield%5C%5B@tag='773'%5C%5D/@ind1%7Cdatafield%5C%5B@tag='773'%5C%5D/@ind2;nil][Indikatoren fix auf ~08~ setzen]]
 - [[https://share.obvsg.at/xsldocs/xslt-normalization/OBV_normalize-on-save/index.html#temp;datafield%5C%5B@tag='773'%5C%5D/subfield%5C%5B@code='a'%5C%5D;nil][Subfeld a löschen]]
 - [[https://share.obvsg.at/xsldocs/xslt-normalization/OBV_normalize-on-save/index.html#temp;datafield\[@tag='773'\]\[subfield\[@code='i'\]\[.='Enthalten%20in'\]\];nil][77308$$d bei Aufsätzen aus 264 generieren]]
+** ex07: Ein ganzer Datensatz
+Wir haben eine E-Book Lieferung. Bei den enthaltenen Datensätzen ist folgendes zu tun:
+
+- [X] =LDR/18= auf =c= setzen
+- [X] =008=
+  - [X] =008/07-10= mit dem Jahr aus =264= befüllen
+  - [X] =008/23= auf "o" setzen
+- [X] =041= aus =008/35-37= generieren
+- [X] =245=
+  - [X] Nichtsortierzeichen einfügen
+- [X] =336=, =337=, =338= SFa und SF2 entfernen
+- [X] =260= durch =264= ersetzen
+- [X] ISBD-Interpunktion entfernen
+- [X] =9XX= löschen
+- [X] Output sortieren
 
 * Spezifikationen
 - XPathXML Path Language (XPath) 3.1 :: https://www.w3.org/TR/xpath-31/

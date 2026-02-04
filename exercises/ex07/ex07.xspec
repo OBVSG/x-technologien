@@ -131,25 +131,28 @@
         <leader>02315cam a22003734c 4500</leader>
         <controlfield tag="001">12983234</controlfield>
         <controlfield tag="005">20250606194929.2</controlfield>
-        <controlfield tag="008">021028s        nyua     b    000 0 eng  </controlfield>
-        <datafield ind1=" " ind2=" " tag="035">
-          <subfield code="a">12983234</subfield>
-        </datafield>
+        <controlfield tag="008">021028s2003    nyua    ob    000 0 eng  </controlfield>
         <datafield ind1=" " ind2=" " tag="010">
           <subfield code="a"> 2002152908</subfield>
         </datafield>
         <datafield ind1=" " ind2=" " tag="020">
           <subfield code="a">0393050939</subfield>
-          <subfield code="q">hbk.</subfield>
+          <subfield code="q">hbk</subfield>
         </datafield>
         <datafield ind1=" " ind2=" " tag="020">
           <subfield code="a">9780393050936</subfield>
           <subfield code="q">(hbk.)</subfield>
         </datafield>
+        <datafield ind1=" " ind2=" " tag="035">
+          <subfield code="a">12983234</subfield>
+        </datafield>
         <datafield ind1=" " ind2=" " tag="040">
           <subfield code="a">DLC</subfield>
           <subfield code="c">DLC</subfield>
           <subfield code="d">DLC</subfield>
+        </datafield>
+        <datafield tag="041" ind1=" " ind2=" ">
+          <subfield code="a">eng</subfield>
         </datafield>
         <datafield ind1=" " ind2=" " tag="042">
           <subfield code="a">pcc</subfield>
@@ -163,7 +166,7 @@
           <subfield code="2">21</subfield>
         </datafield>
         <datafield ind1="1" ind2=" " tag="100">
-          <subfield code="a">Roach, Mary.</subfield>
+          <subfield code="a">Roach, Mary</subfield>
         </datafield>
         <datafield ind1="1" ind2="0" tag="245">
           <subfield code="a">Stiff</subfield>
@@ -173,7 +176,7 @@
         <datafield ind1=" " ind2=" " tag="250">
           <subfield code="a">1st ed</subfield>
         </datafield>
-        <datafield ind1=" " ind2=" " tag="260">
+        <datafield ind1=" " ind2="1" tag="264">
           <subfield code="a">New York</subfield>
           <subfield code="b">W.W. Norton &amp; Co.</subfield>
           <subfield code="c">c2003</subfield>
@@ -187,10 +190,10 @@
           <subfield code="b">txt</subfield>
         </datafield>
         <datafield ind1=" " ind2=" " tag="337">
-          <subfield code="b">n</subfield>
+          <subfield code="b">c</subfield>
         </datafield>
         <datafield ind1=" " ind2=" " tag="338">
-          <subfield code="b">nc</subfield>
+          <subfield code="b">cr</subfield>
         </datafield>
         <datafield ind1=" " ind2=" " tag="504">
           <subfield code="a">Includes bibliographical references (p.[295]-303)</subfield>
