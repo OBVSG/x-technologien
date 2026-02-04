@@ -1,5 +1,7 @@
 private/
 dist/
+test_output/
+**/xspec
 
 *.log
 tmp/
