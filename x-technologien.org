@@ -1,8 +1,8 @@
 #+title: X-Technologien
-#+options: ^:nil
+#+options: ^:nil num:nil
 #+property: header-args:xquery :db ws-sample :exports both
 #+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:org-info.min.js
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="solarized-dark.min.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="solarized-light.min.css" />
 # #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://orgmode.org/worg/style/worg.css"/>
 # #+HTML_HEAD: <link rel="stylesheet" href="http://dakrone.github.io/org.css" type="text/css" />
 #+EXPORT_FILE_NAME: docs/index
@@ -600,18 +600,18 @@ https://share.obvsg.at/xsldocs/xslt-normalization/OBV_normalize-on-save/index.ht
 ** ex07: Ein ganzer Datensatz
 Wir haben eine E-Book Lieferung. Bei den enthaltenen Datensätzen ist folgendes zu tun:
 
-- [X] =LDR/18= auf =c= setzen
-- [X] =008=
-  - [X] =008/07-10= mit dem Jahr aus =264= befüllen
-  - [X] =008/23= auf "o" setzen
-- [X] =041= aus =008/35-37= generieren
-- [X] =245=
-  - [X] Nichtsortierzeichen einfügen
-- [X] =336=, =337=, =338= SFa und SF2 entfernen
-- [X] =260= durch =264= ersetzen
-- [X] ISBD-Interpunktion entfernen
-- [X] =9XX= löschen
-- [X] Output sortieren
+- =LDR/18= auf =c= setzen
+- =008=
+  - =008/07-10= mit dem Jahr aus =264= befüllen
+  - =008/23= auf "o" setzen
+- =041= aus =008/35-37= generieren
+- =245=
+  - Nichtsortierzeichen einfügen
+- =336=, =337=, =338= SFa und SF2 entfernen
+- =260= durch =264= ersetzen
+- ISBD-Interpunktion entfernen
+- =9XX= löschen
+- Output sortieren
 
 * Spezifikationen
 - XPathXML Path Language (XPath) 3.1 :: https://www.w3.org/TR/xpath-31/
