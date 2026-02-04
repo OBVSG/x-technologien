@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<x:description xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns:marc="http://www.loc.gov/MARC21/slim"
+  stylesheet="ex07.xsl">
+
+  <x:scenario label="ganzer Record">
+    <x:context>
+      <record>
+        <leader>02315cam a22003734a 4500</leader>
+        <controlfield tag="001">12983234</controlfield>
+        <controlfield tag="005">20250606194929.2</controlfield>
+        <controlfield tag="008">021028s        nyua     b    000 0 eng  </controlfield>
+        <datafield ind1=" " ind2=" " tag="035">
+          <subfield code="a">12983234</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="906">
+          <subfield code="a">7</subfield>
+          <subfield code="b">cbc</subfield>
+          <subfield code="c">orignew</subfield>
+          <subfield code="d">1</subfield>
+          <subfield code="e">ecip</subfield>
+          <subfield code="f">20</subfield>
+          <subfield code="g">y-gencatlg</subfield>
+        </datafield>
+        <datafield ind1="0" ind2=" " tag="925">
+          <subfield code="a">acquire</subfield>
+          <subfield code="b">2 shelf copies</subfield>
+          <subfield code="x">policy default</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="955">
+          <subfield code="a">jc09 2002-10-28</subfield>
+          <subfield code="c">jc09 2002-10-28</subfield>
+          <subfield code="d">jc02 2002-10-28 to technician</subfield>
+          <subfield code="e">jc13 2002-10-29 to Dewey</subfield>
+          <subfield code="a">aa01 2002-10-30</subfield>
+          <subfield code="a">ps14 2003-07-30 1 copy rec'd., to CIP ver.</subfield>
+          <subfield code="f">jc04 2003-08-29</subfield>
+          <subfield code="g">jc03 2003-09-03 to BCCD</subfield>
+          <subfield code="e">jc17 2003-10-23 c.2 to BCCD</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="955">
+          <subfield code="a">LCAP batch update 2025-06-01-04:00: LCAPM-644,
+            LCAPM-150</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="010">
+          <subfield code="a"> 2002152908</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="020">
+          <subfield code="a">0393050939</subfield>
+          <subfield code="q">hbk.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="020">
+          <subfield code="a">9780393050936</subfield>
+          <subfield code="q">(hbk.)</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+          <subfield code="a">DLC</subfield>
+          <subfield code="c">DLC</subfield>
+          <subfield code="d">DLC</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="042">
+          <subfield code="a">pcc</subfield>
+        </datafield>
+        <datafield ind1="0" ind2="0" tag="050">
+          <subfield code="a">R853.H8</subfield>
+          <subfield code="b">R635 2003</subfield>
+        </datafield>
+        <datafield ind1="0" ind2="0" tag="082">
+          <subfield code="a">611</subfield>
+          <subfield code="2">21</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+          <subfield code="a">Roach, Mary.</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+          <subfield code="a">Stiff :</subfield>
+          <subfield code="b">the curious lives of human cadavers /</subfield>
+          <subfield code="c">Mary Roach.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="250">
+          <subfield code="a">1st ed.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="260">
+          <subfield code="a">New York :</subfield>
+          <subfield code="b">W.W. Norton &amp; Co.,</subfield>
+          <subfield code="c">c2003.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+          <subfield code="a">303 p. :</subfield>
+          <subfield code="b">ill. ;</subfield>
+          <subfield code="c">22 cm.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+          <subfield code="a">text</subfield>
+          <subfield code="b">txt</subfield>
+          <subfield code="2">rdacontent</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+          <subfield code="a">unmediated</subfield>
+          <subfield code="b">n</subfield>
+          <subfield code="2">rdamedia</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+          <subfield code="a">volume</subfield>
+          <subfield code="b">nc</subfield>
+          <subfield code="2">rdacarrier</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="504">
+          <subfield code="a">Includes bibliographical references (p.[295]-303).</subfield>
+        </datafield>
+        <datafield ind1="0" ind2=" " tag="505">
+          <subfield code="a">A head is a terrible thing to waste: practicing surgery on the dead -- Crimes of anatomy: body-snatching and other sordid tales from the dawn of human dissection -- Life after death: on human decay and what can be done about it -- Dead man driving: human crash test dummies and the ghastly, necessary science of impact tolerance -- Beyond the black box: when the bodies of the passengers must tell the story of a crash -- The cadaver who joined the army: the sticky ethics of bullets and bombs -- Holy cadaver: the crucifixion experiments -- How to know if you're dead: beating-heart cadavers, live burial, and the scientific search for the soul -- Just a head: decapitation, reanimation, and the human head transplant -- Eat me: medicinal cannibalism and the case of the human dumplings -- Out of the fire, into the compost bin: and other new ways to end up -- Remains of the author: will she or won't she?.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+          <subfield code="a">Human experimentation in medicine.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+          <subfield code="a">Dead.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+          <subfield code="a">Human dissection.</subfield>
+        </datafield>
+        <datafield ind1="4" ind2="1" tag="856">
+          <subfield code="3">Table of contents</subfield>
+          <subfield code="u">http://www.loc.gov/catdir/toc/fy038/2002152908.html</subfield>
+        </datafield>
+      </record>
+    </x:context>
+    <x:expect label="">
+      <record>
+        <leader>02315cam a22003734c 4500</leader>
+        <controlfield tag="001">12983234</controlfield>
+        <controlfield tag="005">20250606194929.2</controlfield>
+        <controlfield tag="008">021028s        nyua     b    000 0 eng  </controlfield>
+        <datafield ind1=" " ind2=" " tag="035">
+          <subfield code="a">12983234</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="010">
+          <subfield code="a"> 2002152908</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="020">
+          <subfield code="a">0393050939</subfield>
+          <subfield code="q">hbk.</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="020">
+          <subfield code="a">9780393050936</subfield>
+          <subfield code="q">(hbk.)</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="040">
+          <subfield code="a">DLC</subfield>
+          <subfield code="c">DLC</subfield>
+          <subfield code="d">DLC</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="042">
+          <subfield code="a">pcc</subfield>
+        </datafield>
+        <datafield ind1="0" ind2="0" tag="050">
+          <subfield code="a">R853.H8</subfield>
+          <subfield code="b">R635 2003</subfield>
+        </datafield>
+        <datafield ind1="0" ind2="0" tag="082">
+          <subfield code="a">611</subfield>
+          <subfield code="2">21</subfield>
+        </datafield>
+        <datafield ind1="1" ind2=" " tag="100">
+          <subfield code="a">Roach, Mary.</subfield>
+        </datafield>
+        <datafield ind1="1" ind2="0" tag="245">
+          <subfield code="a">Stiff</subfield>
+          <subfield code="b">the curious lives of human cadavers</subfield>
+          <subfield code="c">Mary Roach</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="250">
+          <subfield code="a">1st ed</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="260">
+          <subfield code="a">New York</subfield>
+          <subfield code="b">W.W. Norton &amp; Co.</subfield>
+          <subfield code="c">c2003</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="300">
+          <subfield code="a">303 p.</subfield>
+          <subfield code="b">ill.</subfield>
+          <subfield code="c">22 cm</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="336">
+          <subfield code="b">txt</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="337">
+          <subfield code="b">n</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="338">
+          <subfield code="b">nc</subfield>
+        </datafield>
+        <datafield ind1=" " ind2=" " tag="504">
+          <subfield code="a">Includes bibliographical references (p.[295]-303)</subfield>
+        </datafield>
+        <datafield ind1="0" ind2=" " tag="505">
+          <subfield code="a">A head is a terrible thing to waste: practicing surgery on the dead -- Crimes of anatomy: body-snatching and other sordid tales from the dawn of human dissection -- Life after death: on human decay and what can be done about it -- Dead man driving: human crash test dummies and the ghastly, necessary science of impact tolerance -- Beyond the black box: when the bodies of the passengers must tell the story of a crash -- The cadaver who joined the army: the sticky ethics of bullets and bombs -- Holy cadaver: the crucifixion experiments -- How to know if you're dead: beating-heart cadavers, live burial, and the scientific search for the soul -- Just a head: decapitation, reanimation, and the human head transplant -- Eat me: medicinal cannibalism and the case of the human dumplings -- Out of the fire, into the compost bin: and other new ways to end up -- Remains of the author: will she or won't she?</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+          <subfield code="a">Human experimentation in medicine</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+          <subfield code="a">Dead</subfield>
+        </datafield>
+        <datafield ind1=" " ind2="0" tag="650">
+          <subfield code="a">Human dissection</subfield>
+        </datafield>
+        <datafield ind1="4" ind2="1" tag="856">
+          <subfield code="3">Table of contents</subfield>
+          <subfield code="u">http://www.loc.gov/catdir/toc/fy038/2002152908.html</subfield>
+        </datafield>
+      </record>
+    </x:expect>
+  </x:scenario>
+</x:description>
